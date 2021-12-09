@@ -44,5 +44,19 @@ public class Arrays {
 //         }
 //    }
 //}
+
+        int[][] x = {{2,4}, {3,5,7}, {1,5,7}};
+        int max = 0;
+
+        for(int i = 1; i<x.length; i++){
+            if(x[i].length>=x[i-1].length){
+               // for(int k = 0; k < x);
+                max = i;
+               // for(int k = 0; k<)
+            }
+        }
+        for(int k = 0; k<x[max].length; k++){
+            System.out.print(x[max][k] + " ");
+        }
     }
 }
